@@ -5,103 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mergaite</title>
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="./css/style.css">
     <style>
 
-         body, body * {                       /* <!--pasitikslinti ka daro body, body ir box sizing:  *--> */
-        margin: 0;
-        padding: 0;
-        vertical-align: top;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-
-        } 
-        body {background-color:  #F8F8F8;}
-        main {
-            display:inline-block; 
-            width: 800px; 
-            margin-top: 20px;
-            background-color: #F8F8F8; 
-            margin-left: calc( 50% - 400px );}
-
-        h1 {font-size: 40px;
-            font-family: Arial;
-            color: darkgray;}
-
-        header  {display: inline-block;
-        width: 100%; }
-        header > img {display: inline-block;
-        float: left;
-        height: 50px;}
-
-        nav { display: inline-block;
-            float: right;}
-
-        a {display:inline-block;
-        padding: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-left: 10px;
-        text-decoration: none;
-        font-size: 18px;
-        font-family: Arial;
-        font-weight: bold;
-        color: darkgray;
-        border: 2px solid transparent; }
-
-        a:last-of-type { border-color: darkgray ;
-        text-transform: uppercase;
-        border-radius: 22px;}
-        
-        
-        section
-                {display: inline-block;
-                width: 100%;
-                padding: 20px;
-                margin-top: 40px;}
-
-        div{display:inline-block;
-        float: left;
-        width: 46%;
-        margin-top: 20px;}
-
-        h1{display:inline-block;
-        width: 100%;
-        font-size: 60px;}
-
-        section > img {display: inline-block; 
-        width: 46%;
-        float:right;}
-
-        p {display: inline-block;
-            color:grey;
-            font-size: 20px;
-        font-family: arial;
-        }
-
-        section > img { display: inline-block;
-        width: 46%;
-        float: right;
-        }
+         
     </style>
 </head>
-<body>
-    <main>
-        <header>
+<body class= "body, body *">
+    <main class="body">
+        <header class="header">
             <img src="logo.png" alt="Logo">
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Tracks</a>
-                <a href="#">Library</a>
-                <a href="#">Community</a>
-                <a href="#">Sign in</a>
+            <nav class="nav">
+                <a href="#" class="a">Home</a>
+                <a href="#" class="a">Tracks</a>
+                <a href="#"class="a">Library</a>
+                <a href="#"class="a">Community</a>
+                <a href="#" class="a:last-of-type">Sign in</a>
             </nav>
         </header>
-        <section>
-            <div>
+        <section class="section">
+            <div class="div">
                 <h1>404</h1>
-                <p>The link is broken or the page has ben moved.</p>
+                <p class="p">The link is broken or the page has ben moved.</p>
             </div>
-            <img src="mergaite.png" alt="Mergaite">
+            <img src="mergaite.png" alt="Mergaite" class="section > img">
         </section>
     </main>
 </body>
